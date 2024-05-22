@@ -33,6 +33,6 @@
             <option value="1" selected>Todas as categorias</option>
         </select>
 
-        <button type="button" class="btn btn-primary text-nowrap">Registrar gasto</button>
+        <button type="button" class="btn btn-primary text-nowrap"  data-bs-toggle="modal" data-bs-target="#exampleModal">Registrar gasto</button>
     </div>
 </section>
