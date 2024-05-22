@@ -32,7 +32,10 @@
         <select class="form-select me-2" aria-label="Select de categoria de gasto" disabled id="filtroCategoria">
             <option value="1" selected>Todas as categorias</option>
         </select>
+        <div class="form-group d-none">
+            <input type="date" class="form-control" id="dateInput">
+        </div>
 
-        <button type="button" class="btn btn-primary text-nowrap"  data-bs-toggle="modal" data-bs-target="#exampleModal">Registrar gasto</button>
+        <button type="button" class="btn btn-primary text-nowrap"  data-bs-toggle="modal" data-bs-target=".modalRegistraGasto">Registrar gasto</button>
     </div>
 </section>

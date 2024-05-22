@@ -45,42 +45,47 @@
     <section class="cards-categoria mt-4 row">
 
         <div class="col-4">
-            <div class="card card-categoria" >
-                <div class="card-header d-flex flex-row justify-content-between text-success">
-                    <h5>Alimentação</h5>
-                    <span>•</span>
-                  </div>
-                <div class="card-body">
-                  <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
-                  <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
+            <a href="index.php?page=consumo" class="text-decoration-none">
+                <div class="card card-categoria" >
+                    <div class="card-header d-flex flex-row justify-content-between text-success">
+                        <h5>Alimentação</h5>
+                        <span>•</span>
+                      </div>
+                    <div class="card-body">
+                      <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
+                      <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
+                    </div>
                 </div>
-            </div>
+            </a>        
         </div>
-        
         <div class="col-4">
-            <div class="card card-categoria" >
-                <div class="card-header d-flex flex-row justify-content-between text-danger">
-                    <h5>Saúde</h5>
-                    <span>•</span>
+            <a href="index.php?page=consumo" class="text-decoration-none">
+                <div class="card card-categoria" >
+                    <div class="card-header d-flex flex-row justify-content-between text-danger">
+                        <h5>Saúde</h5>
+                        <span>•</span>
+                    </div>
+                    <div class="card-body">
+                    <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
+                    <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
+                    </div>
                 </div>
-                <div class="card-body">
-                <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
-                <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
-                </div>
-            </div>
+                </a>
         </div>
 
         <div class="col-4">
-            <div class="card card-categoria" >
-                <div class="card-header d-flex flex-row justify-content-between text-danger">
-                    <h5>Saúde</h5>
-                    <span>•</span>
+            <a href="index.php?page=consumo" class="text-decoration-none">
+                <div class="card card-categoria" >
+                    <div class="card-header d-flex flex-row justify-content-between text-danger">
+                        <h5>Saúde</h5>
+                        <span>•</span>
+                    </div>
+                    <div class="card-body">
+                    <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
+                    <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
+                    </div>
                 </div>
-                <div class="card-body">
-                <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
-                <p class="card-text">Consumo: <span class="text-primary">R$35</span> <span class="text-success">20% da sua renda</span></p>
-                </div>
-            </div>
+            </a>
         </div>
 
         <div class="col-12 text-center mt-5">
@@ -90,7 +95,7 @@
     </section>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade modalRegistraGasto" id="modalRegistroGasto1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -106,7 +111,7 @@
                     </div>
                     <div class="col-6">
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Data" aria-label="Data" aria-describedby="Data em que foi gasto">
+                            <input type="date" class="form-control" placeholder="Data" aria-label="Data" aria-describedby="Data em que foi gasto">
                         </div>
                     </div>
                     <div class="col-6">
