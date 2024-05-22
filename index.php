@@ -28,7 +28,11 @@
     ?>
 
     <?php include 'componentes/title.php'; ?>
-    <?php include 'componentes/gerenciador-pag.php'; ?>
+    <?php 
+    //adicionar o gerenciador-pag apenas na página inicial
+    if($page === 'meusResultados')
+    include 'componentes/gerenciador-pag.php'; 
+    ?>
 
     <?php
       // Inclui o arquivo correspondente se a página é válida
