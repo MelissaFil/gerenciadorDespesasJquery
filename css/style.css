@@ -1,0 +1,43 @@
+:root {
+    --bs-primary: #3A9679;
+    --bs-secondary: #055A7A;
+    --bs-success: #5CB85C;
+    --bs-info: #5BC0DE;
+    --bs-warning: #F0AD4E;
+    --bs-danger: #D9534F;
+    --bs-dark: #2A6B5A;
+    --bs-primary-rgb: 58, 150, 121;
+    --bs-secondary-rgb: 5, 90, 122;
+    --bs-success-rgb: 92, 184, 92;
+    --bs-info-rgb: 91, 192, 222;
+    --bs-warning-rgb: 240, 173, 78;
+    --bs-danger-rgb: 217, 83, 79;
+    --bs-dark-rgb: 42, 107, 90;
+
+  }
+body{
+    background-color: #F8F9FA;
+}
+.border-card{
+    border-radius: 30px;
+    border: none;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1)
+}
+.card-categoria .card-header  {
+    background-color: white;
+    border-radius: 31px 31px 0 0 ;
+   
+}
+.header-fixo {
+    border-bottom-color: var(--bs-success);
+}
+.header-variavel {
+    border-bottom-color: var(--bs-warning);
+}
+.header-ocasional{
+    border-bottom-color: var(--bs-danger);
+}
+.card-categoria .card-header  span{
+    font-size: 50px;
+    line-height: 0.5;
+}
