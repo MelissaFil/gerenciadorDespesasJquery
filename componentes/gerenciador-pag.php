@@ -1,8 +1,8 @@
 <section class="gerenciados-pag container d-flex flex-row justify-content-between align-items-center py-3">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Meus resultados</a></li>
-            <li class="breadcrumb-item"><a href="#">Maio</a></li>
+            <li class="breadcrumb-item"><a href="#" class=" text-primary text-decoration-none">Meus resultados</a></li>
+            <li class="breadcrumb-item"><a href="#" class=" text-primary text-decoration-none">Maio</a></li>
             <li class="breadcrumb-item active" aria-current="page">Categoria</li>
         </ol>
     </nav>
