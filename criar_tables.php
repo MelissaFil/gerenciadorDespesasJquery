@@ -26,9 +26,9 @@ $count_tipo = pg_fetch_result($result_tipo, 0);
 if ($count_tipo == 0) {
     $query_insert_tipo = "
     INSERT INTO tipo (nome) VALUES
-    ('fixo'),
-    ('variável'),
-    ('ocasional');
+    ('Fixo'),
+    ('Variável'),
+    ('Ocasional');
     ";
 
     // Executa a query para inserir valores na tabela 'tipo'
