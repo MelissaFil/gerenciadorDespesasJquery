@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-include './conexao.php';
+include '../conexao.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $valor = $_POST['valor'];
