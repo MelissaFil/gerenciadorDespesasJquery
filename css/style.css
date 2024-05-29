@@ -32,13 +32,13 @@ body{
     border-radius: 31px 31px 0 0 ;
    
 }
-.header-fixo {
+.header-success {
     border-bottom-color: var(--bs-success);
 }
-.header-variavel {
+.header-warning {
     border-bottom-color: var(--bs-warning);
 }
-.header-ocasional{
+.header-danger{
     border-bottom-color: var(--bs-danger);
 }
 .card-categoria .card-header  span{
