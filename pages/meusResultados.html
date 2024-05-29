@@ -52,7 +52,7 @@
                         <span>•</span>
                       </div>
                     <div class="card-body">
-                      <p class="card-text text-secondary-light">Consumo: <span class="text-primary">R$35</span> <span class="text-success porcentagemRenda">20% do orçado</span></p>
+                      <p class="card-text text-secondary-light">Gasto: <span class="text-primary">R$35</span> <span class="text-success porcentagemRenda">20% do orçado</span></p>
                       <p class="card-text text-secondary-light">Orçado: <span class="text-primary">R$35</span> <span class="text-success porcentagemRenda">20% da sua renda</span></p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                         <span>•</span>
                     </div>
                     <div class="card-body">
-                    <p class="card-text text-secondary-light">Consumo: <span class="text-primary">R$35</span> <span class="text-success porcentagemRenda">20% do orçado</span></p>
+                    <p class="card-text text-secondary-light">Gasto: <span class="text-primary">R$35</span> <span class="text-success porcentagemRenda">20% do orçado</span></p>
                     <p class="card-text text-secondary-light">Orçado: <span class="text-primary">R$35</span> <span class="text-success porcentagemRenda">20% da sua renda</span></p>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                         <span>•</span>
                     </div>
                     <div class="card-body">
-                    <p class="card-text text-secondary-light">Consumo: <span class="text-primary">R$35</span> <span class="text-success porcentagemRenda">20% do orçado</span></p>
+                    <p class="card-text text-secondary-light">Gasto: <span class="text-primary">R$35</span> <span class="text-success porcentagemRenda">20% do orçado</span></p>
                     <p class="card-text text-secondary-light">Orçado: <span class="text-primary">R$35</span> <span class="text-success porcentagemRenda">20% da sua renda</span></p>
                     </div>
                 </div>
@@ -107,43 +107,47 @@
             <h1 class="modal-title fs-5" id="exampleModalLabel">Registrar gasto</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Valor" aria-label="Valor" aria-describedby="Valor gasto">
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="input-group mb-3">
-                            <input type="date" class="form-control" placeholder="Data" aria-label="Data" aria-describedby="Data em que foi gasto">
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <select class="form-select mb-3" aria-label="Select tipo de gasto" id="tipoGasto">
-                            <option selected>Tipo de gasto</option>
+                <form action="" id="registrarGasto">
+                    <div class="modal-body">
+                        <div class="row">
+                        
+                            <div class="col-6">
+                                <div class="input-group mb-3">
+                                    <input type="text" id="valorGasto" class="form-control" placeholder="Valor" aria-label="Valor" aria-describedby="Valor gasto">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="input-group mb-3">
+                                    <input type="date" id="dataGasto" class="form-control" placeholder="Data" aria-label="Data" aria-describedby="Data em que foi gasto">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <select class="form-select mb-3" aria-label="Select tipo de gasto" id="tipoGasto">
+                                
 
-                        </select> 
-                    </div>
-                    <div class="col-6">
-                        <select class="form-select mb-3" aria-label="Select categoria de gasto" disabled id="categoriaGasto">
-                            <option selected>Categoria</option>
+                                </select> 
+                            </div>
+                            <div class="col-6">
+                                <select class="form-select mb-3" aria-label="Select categoria de gasto" disabled id="categoriaGasto">
+                                    <option selected disabled>Categoria</option>
 
-                        </select>  
-                    </div>  
-                    <div>
-                        <div class="form-floating">
-                            <textarea class="form-control" placeholder="Descrição do gasto" id="descricaoGasto"></textarea>
-                            <label for="floatingTextarea">Descrição</label>
-                          </div>
-                    </div>                          
-                </div>
-                
-            </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-            <button type="button" class="btn btn-primary">Registrar</button>
-            </div>
+                                </select>  
+                            </div>  
+                            <div>
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Descrição do gasto" id="descricaoGasto"></textarea>
+                                    <label for="floatingTextarea">Descrição</label>
+                                </div>
+                            </div>      
+
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="submit" class="btn btn-primary">Registrar</button>
+                    </div>
+            </form>
         </div>
         </div>
   </div>
