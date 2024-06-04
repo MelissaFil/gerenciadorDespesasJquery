@@ -1,0 +1,2 @@
+2024-06-04 15:42:36 - Conexão com o banco de dados falhou. Tipo: NULL
+2024-06-04 15:42:55 - Nenhum dado encontrado na tabela orcamento.

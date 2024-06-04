@@ -2,6 +2,7 @@ import {cadastrarGasto } from './cadastrarGasto.js';
 import {listarCategoria } from './listarCategoria.js';
 import {validarCampos } from './validarCampos.js';
 import {listarConsumos } from './listarConsumos.js';
+import {resumirDespesas } from './resumoDespesas.js';
 
 $(document).ready(function() {
     // Carrega os tipos de gastos ao abrir o modal
@@ -40,7 +41,8 @@ $(document).ready(function() {
 
 
     function init() {
-        listarConsumos() 
+        listarConsumos(); 
+        resumirDespesas();
     }
 
     init();
